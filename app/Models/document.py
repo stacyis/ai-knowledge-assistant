@@ -1,4 +1,4 @@
-from pydantic import BaseModel, Field, ConfigDict
+from pydantic import BaseModel, Field
 from uuid import UUID, uuid4
 
 class Document(BaseModel, str_strip_whitespace=True):
